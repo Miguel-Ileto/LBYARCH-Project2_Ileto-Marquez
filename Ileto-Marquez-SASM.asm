@@ -3,18 +3,9 @@
 section .text
 bits 64
 default rel
-global asmprint
-global asmscan
-global asmfunc
+global imgCvtGrayFloatToInt
 
-asmprint:
-    
-    ret
-
-asmscan:
-
-    ret
-
-asmfunc:
+imgCvtGrayFloatToInt:
+    ; height@rcx, width@rdx, vecfloat@xmm0, result@r8
 
     ret
